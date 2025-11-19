@@ -1,0 +1,402 @@
+/**
+ * @name Liquid Glass
+ * @description Liquid Glass но для Discord, йоу :3
+ * @author @SHARKofficiala
+ * @version 1.0.0
+ * @website https://t.me/SHARKofficala
+ * @source https://t.me/SHARKofficala
+ * @invite NoWaaaaaaayOgGadeeemmnnn
+ */
+
+
+
+
+.form_f75fb0,
+.form_f75fb0 *,
+.formWithLoadedChatInput_f75fb0,
+.channelBottomBarArea_f75fb0,
+.translucentContainer_f75fb0,
+.container-3XgAHv,
+.chatContent__5dca8,
+.wrapper_f75fb0,
+.content_f75fb0,
+.themedBackground__74017,
+.scrollableContainer__74017,
+.inner__74017,
+.sansAttachButton__74017 {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+}
+
+.channelTextArea_f75fb0 {
+    background: rgba(255, 255, 255, 0.10) !important;
+    background-color: rgba(255, 255, 255, 0.10) !important;
+    backdrop-filter: blur(26px) saturate(220%) !important;
+    -webkit-backdrop-filter: blur(26px) saturate(220%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.28) !important;
+    border-radius: 20px !important;
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.scrollableContainer__74017 {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.channelTextArea_f75fb0::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.15) !important;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.channelTextArea_f75fb0::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.25)) !important;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.textArea__74017,
+.textAreaSlate__74017,
+.attachWrapper__0923f,
+.accessoryBar__74017,
+.buttons__74017,
+.buttonContainer__74017,
+.markup__75297,
+.slateContainer_ec4baf,
+.placeholder__1b31f,
+.editor__1b31f,
+.slateTextArea_ec4baf,
+.uploadInput__0923f {
+    background: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.scrollableContainer__74017::before,
+.scrollableContainer__74017::after,
+.themedBackground__74017::before,
+.themedBackground__74017::after,
+.inner__74017::before,
+.inner__74017::after {
+    display: none !important;
+}
+
+.theme-dark .channelTextArea_f75fb0,
+.theme-light .channelTextArea_f75fb0 {
+    background: rgba(255, 255, 255, 0.10) !important;
+    background-color: rgba(255, 255, 255, 0.10) !important;
+}
+
+.theme-dark .scrollableContainer__74017,
+.theme-light .scrollableContainer__74017,
+.theme-dark .themedBackground__74017,
+.theme-light .themedBackground__74017,
+.theme-dark .inner__74017,
+.theme-light .inner__74017 {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+
+.container__37e49,
+.panels__58331,
+.panels_a4d4d9 {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.container__37e49 {
+    background: rgba(255, 255, 255, 0.10) !important;
+    background-color: rgba(255, 255, 255, 0.10) !important;
+    backdrop-filter: blur(26px) saturate(220%) !important;
+    -webkit-backdrop-filter: blur(26px) saturate(220%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.28) !important;
+    border-radius: 20px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    margin: 8px !important;
+    padding: 12px !important;
+}
+
+.container__37e49::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.15) !important;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.container__37e49::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.25)) !important;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.avatarWrapper__37e49,
+.nameTag__37e49,
+.buttons__37e49,
+.panelTitleContainer__37e49,
+.panelSubtextContainer__37e49 {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.button__67645,
+.micButtonParent__37e49 {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.userPopoutInner_c0bea0,
+.overlay_c0bea0,
+.overlay_b32ca4 {
+    background: rgba(255, 255, 255, 0.10) !important;
+    backdrop-filter: blur(26px) saturate(220%) !important;
+    -webkit-backdrop-filter: blur(26px) saturate(220%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.28) !important;
+    border-radius: 22px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.35) !important;
+}
+
+.userPopoutInner_c0bea0::before,
+.overlay_c0bea0::before,
+.overlay_b32ca4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    pointer-events: none;
+    background: rgba(255, 255, 255, 0.15) !important;
+    z-index: 10;
+}
+
+.userPopoutInner_c0bea0::after,
+.overlay_c0bea0::after,
+.overlay_b32ca4::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 14px;
+    pointer-events: none;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.22)) !important;
+    z-index: 10;
+}
+
+.header__7f9c0,
+.body_b32ca4,
+.section_bf424d,
+.container__63ed3,
+.activityContainer__84832,
+.card__39ec2,
+.section__1f6ca,
+.list__1f6ca,
+.divider__23eb0 {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.nickname__63ed3,
+.statusText_ab8609,
+.defaultColor__4bd52 {
+    color: rgba(255,255,255,0.95) !important;
+}
+
+.card__39ec2 {
+    backdrop-filter: blur(30px) saturate(240%) !important;
+    border: 1px solid rgba(255,255,255,0.22) !important;
+    border-radius: 18px !important;
+}
+
+.section_bf424d {
+    backdrop-filter: blur(22px) saturate(200%) !important;
+    border: 1px solid rgba(255,255,255,0.18) !important;
+    border-radius: 16px !important;
+    padding: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+.button__67645,
+.icon_fb7f94,
+.contextMenu__39ec2,
+.clickable__1f6ca {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.title_c38106 {
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: rgba(255, 255, 255, 0.10) !important;
+    backdrop-filter: blur(26px) saturate(220%) !important;
+    -webkit-backdrop-filter: blur(26px) saturate(220%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.28) !important;
+    border-radius: 14px !important;
+    padding: 6px 14px !important;
+    margin-left: 8px !important;
+    height: 32px !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    box-shadow: 0 10px 32px rgba(0,0,0,0.35) !important;
+}
+
+.title_edbb22,
+.avatarSize__20eae,
+.guildIconContainer__4443a,
+.header__10409 {
+    opacity: 0 !important;
+    pointer-events: none !important;
+}
+
+.title_c38106::before {
+    content: "Liquid Glass By @SHARKofficala" !important;
+    position: relative;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: var(--font-primary);
+    color: rgba(255,255,255,0.98) !important;
+    text-shadow: 0 0 12px rgba(0,180,255,0.9), 0 0 20px rgba(0,170,255,0.6);
+    z-index: 20;
+    pointer-events: none;
+}
+
+.title_c38106::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.25)) !important;
+    z-index: 5;
+}
+
+.searchBar_e6b769 {
+    background: rgba(255, 255, 255, 0.10) !important;
+    backdrop-filter: blur(26px) saturate(220%) !important;
+    -webkit-backdrop-filter: blur(26px) saturate(220%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.28) !important;
+    border-radius: 14px !important;
+    margin: 8px 12px 10px 12px !important;
+    height: 38px !important;
+    position: relative !important;
+    overflow: hidden !important;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.35) !important;
+}
+
+.button_a22cb0,
+.buttonChildrenWrapper_a22cb0,
+.buttonChildren_a22cb0 {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+.searchBar_e6b769 span,
+.searchBar_e6b769 .overflow_b0dfc2 {
+    color: rgba(255,255,255,0.92) !important;
+    font-weight: 500 !important;
+    text-shadow: 0 0 6px rgba(70,180,255,0.55) !important;
+    white-space: nowrap !important;
+}
+
+.searchBar_e6b769::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: rgba(255,255,255,0.16);
+    pointer-events: none;
+    z-index: 4;
+}
+
+.searchBar_e6b769::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.25));
+    pointer-events: none;
+    z-index: 4;
+}
+.centerButton_f1ceac,
+.attachedButton_f1ceac,
+.button__201d5.lookBlank__201d5.colorBrand__201d5 {
+    background: rgba(88, 101, 242, 0.14) !important;
+    backdrop-filter: blur(22px) saturate(200%) !important;
+    -webkit-backdrop-filter: blur(22px) saturate(200%) !important;
+    border: 1px solid rgba(88, 101, 242, 0.28) !important;
+    border-radius: 14px !important;
+    padding: 8px !important;
+    box-shadow: 0 4px 16px rgba(88, 101, 242, 0.30) !important;
+    transition: all 0.25s ease !important;
+}
+
+.centerButton_f1ceac svg,
+.centerButton_f1ceac .controlIcon_f1ceac,
+.lottieIcon__5eb9b {
+    color: #5865F2 !important;
+    filter: drop-shadow(0 0 8px rgba(88, 101, 242, 0.6)) !important;
+}
+
+.centerButton_f1ceac:hover,
+.attachedButton_f1ceac:hover {
+    background: rgba(88, 101, 242, 0.22) !important;
+    box-shadow: 0 6px 22px rgba(88, 101, 242, 0.45) !important;
+    transform: translateY(-2px) !important;
+}
+
+.centerButton_f1ceac:active {
+    transform: scale(0.93) !important;
+}
+
+.disconnect_f1ceac {
+    background: rgba(255, 0, 0, 0.14) !important;
+    border-color: rgba(255, 0, 0, 0.35) !important;
+    box-shadow: 0 4px 18px rgba(255, 40, 40, 0.45) !important;
+}
+
+.disconnect_f1ceac svg {
+    color: rgba(255, 40, 40, 1) !important;
+    filter: drop-shadow(0 0 10px rgba(255, 50, 50, 0.7)) !important;
+}
+
+.disconnect_f1ceac:hover {
+    background: rgba(255, 0, 0, 0.22) !important;
+    box-shadow: 0 8px 26px rgba(255, 0, 0, 0.55) !important;
+    transform: translateY(-2px) !important;
+}
